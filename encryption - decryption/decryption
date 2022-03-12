@@ -1,0 +1,148 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package apokodikopoihsh2;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author user
+ */
+public class Apokodikopoihsh2 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        System.out.println("grapse to kodikopoihmeno keimeno gia na apokodikopoithei: ");
+                Scanner eisodos = new Scanner(System.in);
+        
+        char[] grammata = eisodos.nextLine().toCharArray();
+        
+        for (int counter = 0;  counter < grammata.length; counter++){
+        switch (grammata[counter]) {
+               case '/':
+               System.out.print("a");
+               break;
+
+               case '@':
+               System.out.print("b");
+               break;
+               
+               case '#':
+               System.out.print("c");
+               break;
+               
+               case '$':
+               System.out.print("d");
+               break;
+               
+               case '%':
+               System.out.print("e");
+               break;
+               
+               case '^':
+               System.out.print("f");
+               break;
+               
+               case '&':
+               System.out.print("g");
+               break;
+               
+               case '*':
+               System.out.print("h");
+               break;
+               
+               case '(':
+               System.out.print("i");
+               break;
+               
+               case ')':
+               System.out.print("j");
+               break;
+               
+               case '-':
+               System.out.print("k");
+               break;
+               
+               case '_':
+               System.out.print("l");
+               break;
+               
+               case '=':
+               System.out.print("m");
+               break;
+               
+               case '+':
+               System.out.print("n");
+               break;
+               
+               case '`':
+               System.out.print("o");
+               break;
+               
+               case '~':
+               System.out.print("p");
+               break;
+               
+               case '1':
+               System.out.print("q");
+               break;
+               
+               case '2':
+               System.out.print("r");
+               break;
+               
+               case '3':
+               System.out.print("s");
+               break;
+               
+               case '4':
+               System.out.print("t");
+               break;
+               
+               case '5':
+               System.out.print("u");
+               break;
+               
+               case '6':
+               System.out.print("v");
+               break;
+               
+               case '7':
+               System.out.print("w");
+               break;
+               
+               case '8':
+               System.out.print("x");
+               break;
+               
+               case '9':
+               System.out.print("y");
+               break;
+               
+               case '0':
+               System.out.print("z");
+               break;
+               
+               case ' ':
+               System.out.print(" ");
+               break;
+               
+               case '?':
+               System.out.print("?");
+               break;
+               
+               case '!':
+               System.out.print("!");
+               
+               
+        }
+        }
+    }
+    
+}
